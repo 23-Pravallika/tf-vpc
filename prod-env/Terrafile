@@ -1,0 +1,5 @@
+#Terrafile is a binary written in Go to systematically manage external modules from Github for use in Terraform
+vpc:
+    source: "https://github.com/23-Pravallika/tf-backend-vpc.git"
+    version: "main"
+
