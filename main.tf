@@ -3,4 +3,6 @@ module "vpc" {
     VPC_CIDR = var.VPC_CIDR
     AZ = var.AZ
     ENV = var.ENV
+    PUBLIC_SUBNET = var.PUBLIC_SUBNET
+    PRIVATE_SUBNET = var.PRIVATE_SUBNET
 }
