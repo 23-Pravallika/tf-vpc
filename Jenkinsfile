@@ -4,6 +4,11 @@ pipeline {
         choice(name: 'ENV', choices: ['dev', 'prod'], description: 'select the environment')
         choice(name: 'ACT', choices: ['apply', 'destroy'], description: 'Chose Apply or Destroy')                     
       }
+
+      options { 
+        ansiColor('xterm')
+      }
+
     stages{
         stage('terraform init'){
             steps{
