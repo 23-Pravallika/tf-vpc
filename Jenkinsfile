@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label 'Jenkins-WS'}
      parameters { 
         choice(name: 'ENV', choices: ['dev', 'prod'], description: 'select the environment')
         choice(name: 'ACT', choices: ['apply', 'destroy'], description: 'Chose Apply or Destroy')                     
