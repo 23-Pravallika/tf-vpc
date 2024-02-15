@@ -5,9 +5,9 @@ pipeline {
         choice(name: 'ACT', choices: ['apply', 'destroy'], description: 'Chose Apply or Destroy')                     
       }
 
-    //   options { 
-    //     ansiColor('xterm')
-    //   }
+      options { 
+        ansiColor('xterm')
+      }
 
     stages{
         stage('terraform init'){
