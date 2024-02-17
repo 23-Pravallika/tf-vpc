@@ -30,4 +30,12 @@ output "DEFAULT_VPC_CIDR"{
     value = module.vpc.DEFAULT_VPC_CIDR
 }
 
+output "PRIVATE_HOSTED_ZONE_ID"{
+    value = module.vpc.PRIVATE_HOSTED_ZONE_ID
+}
+
+output "PRIVATE_HOSTED_ZONE_NANE"{
+    value =module.vpc.PRIVATE_HOSTED_ZONE_NANE
+}
+
 
