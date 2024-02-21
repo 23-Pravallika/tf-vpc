@@ -1,8 +1,7 @@
 @Library('shared-library-robo') _
 
-terraform()
 env.REPONAME = "tf-vpc"
-
+terraform()
 
 
 // pipeline {
