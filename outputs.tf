@@ -34,8 +34,8 @@ output "PRIVATE_HOSTED_ZONE_ID"{
     value = module.vpc.PRIVATE_HOSTED_ZONE_ID
 }
 
-output "PRIVATE_HOSTED_ZONE_NANE"{
-    value =module.vpc.PRIVATE_HOSTED_ZONE_NANE
+output "PRIVATE_HOSTED_ZONE_NAME"{
+    value =module.vpc.PRIVATE_HOSTED_ZONE_NAME
 }
 
 
